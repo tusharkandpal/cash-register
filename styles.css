@@ -46,10 +46,14 @@ input {
     color: darkred;
 }
 
-#notes-table{
+#notes-table {
     margin: 2.5rem 0;
     width: 90%;
     max-width: 450px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--primary-color);
 }
 
 th, td {
